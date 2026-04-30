@@ -55,7 +55,7 @@
 
 **Constraints**
 - `UNIQUE (Hostel_ID, Room_Number)`  
-- 📌 Room occupancy is derived using active room allocations.
+-  Room occupancy is derived using active room allocations.
 
 ---
 
@@ -107,7 +107,7 @@
 ---
 
 ## 8 Member_Movement_Logs
-**Purpose:** Tracks hostel exit/entry of members (students).
+**Purpose:** Tracks hostel exit/entry of members (students/wardens).
 
 ### Member_Movement_Logs
 - **Movement_ID** (PK, INT, NOT NULL)  
@@ -156,7 +156,7 @@
 - **Type_Name** (VARCHAR, NOT NULL)  
   - e.g., Electrical, Mechanical, Civil
 - **Sub_Type** (VARCHAR, NOT NULL)  
-  - e.g., Fan, Switch  
+  - e.g., Fan, Switch, AC 
 
 ---
 
