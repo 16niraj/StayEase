@@ -54,3 +54,5 @@ Note: This script automatically handles both hashing the transactional tables an
 
 * QueryCraft_report.pdf: The complete scalability, consistency, and trade-offs analysis report.
 
+---
+> **Note:** This project is for educational purposes as part of the CS432- Databases assignment.

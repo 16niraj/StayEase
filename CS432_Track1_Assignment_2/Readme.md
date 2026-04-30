@@ -123,3 +123,7 @@ CS432_Track1_Submission/
 ##  Developer Notes
 * **Frontend Architecture:** This application uses a Single Page Application (SPA) paradigm. The HTML is statically loaded once, and JavaScript dynamically manipulates the DOM to hide/show specific sections (`class="hidden"`) based on the authenticated user's role.
 * **Cache Clearing:** If you make updates to `script.js` or `style.css` and do not see the changes reflected in your browser, press `Ctrl + F5` (Windows) or `Cmd + Shift + R` (Mac) to hard refresh and clear the browser cache.
+
+---
+
+> **Note:** This project is for educational purposes as part of the CS432- Databases assignment.
